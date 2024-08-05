@@ -13,7 +13,7 @@ Feature: Login to the application
     Examples:
       | user-type |
       | admin     |
-      | studen    |
+      | student    |
 
 
 @lib-01-02
