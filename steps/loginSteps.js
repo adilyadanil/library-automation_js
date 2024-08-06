@@ -18,7 +18,7 @@ When("user enters valid username {string}", async function (string) {
   } else {
     await PageManager.loginPage.enterUsername();
   }
-  // await BrowserUtility.sleep(2);
+   await BrowserUtility.sleep(2);
 });
 
 When("user enters valid password {string}", async function (string) {
