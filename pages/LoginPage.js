@@ -10,9 +10,7 @@ export class LoginPage extends BasePage {
     super(page);
     this.usernameInput = page.locator("//input[@id='inputEmail']");
     this.passwordInput = page.locator("//input[@id='inputPassword']");
-    this.loginButton = page.locator(
-      "//button[text()='Sign in' and @type='submit']"
-    );
+    this.loginButton = page.locator("//button[text()='Sign in' and @type='submit']");
     this.logineErrorMessage = page.locator("//div[@class='alert alert-danger']");
     
   }

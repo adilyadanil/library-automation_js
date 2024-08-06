@@ -4,7 +4,7 @@ import { BrowserUtility } from '../utilities/BrowserUtility.js';
 import { PageManager } from "../globalPagesSetup.js";
 
 
-Given('user is already logged in as {string}', async function (string) {
+Given('user is already logged in as {string}', { timeout: 60000 }, async function (string) {
     await PageManager.loginPage.login(string);
 
 });

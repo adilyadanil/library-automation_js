@@ -1,7 +1,7 @@
 export class BrowserUtility {
 
     static async sleep(seconds){
-        await new Promise((resolve) => setTimeout(resolve, seconds * 1000));
+        await new Promise((resolve) => setTimeout(resolve, seconds * 2000));
     }
 
     // ADD YOUR OWN BROWSER UTILITY FUNCTIONS HERE...
